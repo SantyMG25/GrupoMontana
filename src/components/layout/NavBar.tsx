@@ -2,9 +2,9 @@ import Link from "next/link";
 import Button from "@/components/ui/Button";
 
 const NavLinks = [
+  { name: "Inicio", href: "/" },
   { name: "Nosotros", href: "/nosotros" },
   { name: "Servicios", href: "/servicios" },
-  { name: "Contacto", href: "/contacto" },
 ];
 
 export default function NavBar() {

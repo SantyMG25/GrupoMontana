@@ -16,7 +16,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="relative z-50 border-b border-gray-200 bg-background shadow-sm">
+    <header className="relative z-50 border-b border-gray-200 bg-[#cec7c7] shadow-sm">
       
       {/* Top bar */}
       <div className="flex items-center justify-between px-6 py-4">

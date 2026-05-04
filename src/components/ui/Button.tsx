@@ -24,9 +24,9 @@ export default function Button({
   const variants = {
     primary: "bg-gray-900 text-white hover:bg-gray-800",
     outline:
-      "border border-gray-300 text-gray-800 hover:border-orange-500 hover:text-orange-500",
+      "border border-gray-300 text-gray-800 hover:border-[#C5A059] hover:text-orange-500",
     ghost: "text-gray-700 hover:text-orange-500",
-    cta: "bg-[#C5A059] text-white shadow-md hover:bg-[#C5A059]/90",
+    cta: "bg-[#C5A180] text-white shadow-md hover:bg-[#C5A059]/90",
     whatsapp: "bg-green-500 text-white hover:bg-green-600",
   };
 

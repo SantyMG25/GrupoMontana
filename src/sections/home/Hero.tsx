@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Instrument_Serif } from "next/font/google";
 import WtpButton from "@/components/ui/ButtonWtp";
 import Button from "@/components/ui/Button";
+import FadeIn from "@/components/ui/FadeIn";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
@@ -31,36 +32,44 @@ export default function Hero() {
         <div className="group space-y-7 text-white bg-black/20 backdrop-blur-[2px] p-7 md:p-10 rounded-3xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.25)] transition-all hover:border-white/20">
           
           {/* Label */}
-          <div className="flex items-center gap-4">
-            <span className="h-[1px] w-12 bg-[#C5A180]" />
-            <p className="text-xs md:text-sm font-bold uppercase tracking-[0.4em] text-[#C5A180]">
-              Montana · Soluciones y Servicios
+          <FadeIn delay={0.1} direction="up">
+            <div className="flex items-center gap-4">
+              <span className="h-[1px] w-12 bg-[#C5A180]" />
+              <p className="text-xs md:text-sm font-bold uppercase tracking-[0.4em] text-[#C5A180]">
+                Montana · Soluciones y Servicios
+              </p>
+            </div>
+          </FadeIn>
+
+          <FadeIn delay={0.3} direction="up">
+            <h1 
+              id="hero-heading"
+              className={`${instrumentSerif.className} text-5xl md:text-7xl leading-[1.02] tracking-tight max-w-2xl`}
+            >
+              Construimos y remodelamos <br />
+              <span className="italic text-white/85 font-light text-[0.82em]">
+                espacios con propósito.
+              </span>
+            </h1>
+          </FadeIn>
+
+          <FadeIn delay={0.5} direction="up">
+            <p className="max-w-lg text-base md:text-lg leading-relaxed text-gray-300 font-light">
+              Transformamos espacios con asesoría estratégica, precisión técnica y acabados de alto nivel en Bogotá y alrededores.
             </p>
-          </div>
+          </FadeIn>
 
-          <h1 
-            id="hero-heading"
-            className={`${instrumentSerif.className} text-5xl md:text-7xl leading-[1.02] tracking-tight max-w-2xl`}
-          >
-            Construimos y remodelamos <br />
-            <span className="italic text-white/85 font-light text-[0.82em]">
-              espacios con propósito.
-            </span>
-          </h1>
-
-          <p className="max-w-lg text-base md:text-lg leading-relaxed text-gray-300 font-light">
-            Transformamos espacios con asesoría estratégica, precisión técnica y acabados de alto nivel en Bogotá y alrededores.
-          </p>
-
-          <div className="flex gap-4 flex-col sm:flex-row items-start sm:items-center">
-            <WtpButton />
-            
-            <Button variant="cta">
-              <Link href="/contacto">
-                Iniciar Presupuesto
-              </Link>
-            </Button>
-          </div>
+          <FadeIn delay={0.7} direction="up">
+            <div className="flex gap-4 flex-col sm:flex-row items-start sm:items-center mt-4">
+              <WtpButton />
+              
+              <Button variant="cta">
+                <Link href="/contacto">
+                  Iniciar Presupuesto
+                </Link>
+              </Button>
+            </div>
+          </FadeIn>
         </div>
       </div>
 

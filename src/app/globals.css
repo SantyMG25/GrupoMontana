@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fa1515;
-  --foreground: #f1f4f2;
-}
+  --background: #ededed;
+  --foreground: #000000;
+} 
 
 @theme inline {
   --color-background: var(--background);

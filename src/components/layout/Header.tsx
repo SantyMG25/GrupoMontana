@@ -24,7 +24,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/">
           <Image
-            src="/img/logo/logoHz.webp"
+            src="/img/logo/logoActualizado.webp"
             alt="Grupo Montana Logo"
             width={150}
             height={50}

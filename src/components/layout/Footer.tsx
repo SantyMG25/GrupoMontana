@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Logo + descripción */}
           <div className="space-y-4">
             <Image
-              src="/img/logo/logoHz.webp"
+              src="/img/logo/logoActualizado.webp"
               alt="Grupo Montana"
               width={140}
               height={50}
@@ -44,15 +44,15 @@ export default function Footer() {
             </h3>
 
             <ul className="space-y-3 text-sm text-gray-500">
-              <li>📍 Ciudad, País</li>
-              <li>📞 +57 XXX XXX XXXX</li>
+              <li>📍 Bogotá, Colombia</li>
+              <li>📞 +57 311 374 3784</li>
               <li>✉️ correo@empresa.com</li>
             </ul>
 
             {/* Redes */}
             <div className="mt-4 flex gap-4">
               <a
-                href="https://wa.me/57NUMERO"
+                href="https://wa.me/573113743784"
                 target="_blank"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-green-500 text-white hover:bg-green-600"
               >
@@ -70,7 +70,7 @@ export default function Footer() {
                 href="#"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-700 hover:bg-gray-600"
               >
-                <FaInstagram />
+                <FaInstagram /> 
               </a>
             </div>
           </div>

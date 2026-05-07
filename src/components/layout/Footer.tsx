@@ -46,7 +46,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-gray-500">
               <li>📍 Bogotá, Colombia</li>
               <li>📞 +57 311 374 3784</li>
-              <li>✉️ correo@empresa.com</li>
+              <li>✉️ grupomontanaconstructor@gmail.com</li>
             </ul>
 
             {/* Redes */}
@@ -79,7 +79,7 @@ export default function Footer() {
 
         {/* Línea inferior */}
         <div className="mt-10 border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} Grupo Montana. Todos los derechos reservados.
+          © {new Date().getFullYear()}  Montana SyS. Todos los derechos reservados.
         </div>
 
       </div>

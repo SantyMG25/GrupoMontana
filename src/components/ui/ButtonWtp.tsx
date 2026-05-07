@@ -2,9 +2,11 @@ import Button from "@/components/ui/Button";
 import { FaWhatsapp } from "react-icons/fa6";
 
 export default function WtpButton() {
+    const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "";
+
     return (
         <a
-            href="https://wa.me/573113743784?text=Hola,%20quiero%20cotizar%20un%20proyecto."
+            href={`https://wa.me/${phoneNumber}?text=Hola,%20quiero%20cotizar%20un%20proyecto.`}
             target="_blank"
             rel="noopener noreferrer"
         >

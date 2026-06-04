@@ -25,13 +25,13 @@ export default function ContactHero() {
 
         <FadeIn direction="up" delay={0.2}>
           <h1 className="mt-4 text-4xl md:text-5xl font-bold text-white leading-tight">
-            Contáctanos
+            Contacto y Cotizaciones para Proyectos de Construcción y Remodelación
           </h1>
         </FadeIn>
 
         <FadeIn direction="up" delay={0.3}>
           <p className="mt-6 text-gray-300 text-lg leading-relaxed">
-            Estamos listos para ayudarte con tu proyecto de construcción o remodelación.
+            Estamos listos para ayudarte con tu proyecto de construcción, adecuación o remodelación en Bogotá y a nivel nacional.
           </p>
         </FadeIn>
 

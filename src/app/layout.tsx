@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header"
 import Footer from "@/components/layout/Footer"
 import CtaWhatsappFloating from "@/components/cta/WhatsAppFloating";
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata, Viewport } from "next";
 
 export const viewport: Viewport = {
@@ -14,11 +15,24 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://montana-servicios.com"), // Ajustar a dominio real
   title: {
-    default: "Montana | Soluciones y Servicios de Construcción en Bogotá",
+    default: "Montana | Soluciones y Servicios de Construcción y Remodelación",
     template: "%s | Montana Soluciones",
   },
-  description: "Transformamos y remodelamos espacios con asesoría estratégica, precisión técnica y acabados de alto nivel en Bogotá y alrededores.",
-  keywords: ["construcción Bogotá", "remodelación", "acabados", "arquitectura", "diseño de interiores", "Montana", "servicios de construcción"],
+  description: "Empresa líder en soluciones y servicios de construcción, remodelación integral y acabados en Bogotá y a nivel nacional. Asesoría estratégica para tus proyectos.",
+  keywords: [
+    "construcción Bogotá",
+    "remodelación Bogotá",
+    "remodelaciones Colombia",
+    "acabados de obra",
+    "diseño de interiores Bogotá",
+    "empresa de construcción",
+    "adecuación de oficinas",
+    "construcción de casas",
+    "remodelación residencial",
+    "remodelación comercial",
+    "adecuaciones estructurales",
+    "obras civiles Bogotá"
+  ],
   authors: [{ name: "Montana Soluciones y Servicios" }],
   creator: "Montana Soluciones y Servicios",
   publisher: "Montana Soluciones y Servicios",
@@ -28,8 +42,8 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "Montana | Construcción y Remodelación en Bogotá",
-    description: "Construimos y remodelamos espacios con propósito. Asesoría estratégica y acabados de alto nivel.",
+    title: "Montana | Construcción, Remodelación y Acabados en Bogotá y Colombia",
+    description: "Transformamos espacios con asesoría estratégica, precisión técnica y acabados de alto nivel en Bogotá y a nivel nacional.",
     url: "https://montana-servicios.com",
     siteName: "Montana Soluciones y Servicios",
     locale: "es_CO",
@@ -37,8 +51,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Montana | Construcción y Remodelación",
-    description: "Transformamos espacios con asesoría estratégica y acabados de alto nivel en Bogotá.",
+    title: "Montana | Construcción y Remodelación Nacional",
+    description: "Transformamos espacios con asesoría estratégica y acabados de alto nivel en Bogotá y a nivel nacional.",
   },
   robots: {
     index: true,
@@ -59,16 +73,22 @@ export default function RootLayout({
 }) {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "HomeAndConstructionBusiness",
     "name": "Montana Soluciones y Servicios",
-    "image": "https://montana-servicios.com/img/hero/hero.webp", // Ruta de ejemplo
-    "description": "Empresa especializada en construcción y remodelación de espacios en Bogotá.",
+    "image": "https://montana-servicios.com/img/hero/hero.webp",
+    "description": "Empresa especializada en construcción, remodelación integral, acabados y adecuación de espacios residenciales y comerciales en Bogotá y a nivel nacional.",
+    "telephone": "+573113743784",
+    "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Bogotá",
+      "addressRegion": "Cundinamarca",
       "addressCountry": "CO"
     },
-    "url": "https://montana-servicios.com"
+    "url": "https://montana-servicios.com",
+    "sameAs": [
+      "https://wa.me/573113743784"
+    ]
   };
 
   return (
@@ -91,6 +111,7 @@ export default function RootLayout({
 
         <CtaWhatsappFloating />
 
+        <Analytics />
       </body>
     </html>
   )

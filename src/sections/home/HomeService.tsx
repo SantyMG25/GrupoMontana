@@ -16,7 +16,7 @@ export default function HomeService() {
 
           <FadeIn direction="up" delay={0.2}>
             <h2 className="mt-4 text-4xl font-bold leading-tight text-[#162334] md:text-5xl">
-              Soluciones para transformar espacios
+              Servicios de Construcción, Remodelación y Acabados
             </h2>
           </FadeIn>
 

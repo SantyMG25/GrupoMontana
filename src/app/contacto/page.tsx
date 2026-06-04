@@ -4,8 +4,8 @@ import ContactInfo from "@/sections/contact/ContactInfo";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contacto",
-  description: "¿Tienes un proyecto en mente? Contáctanos hoy mismo para cotizar tu proyecto de remodelación o construcción en Bogotá y alrededores.",
+  title: "Contacto y Cotizaciones | Construcción y Remodelación",
+  description: "¿Tienes un proyecto en mente? Contáctanos hoy mismo para obtener una cotización y asesoría para tu proyecto de remodelación o construcción en Bogotá y a nivel nacional.",
   alternates: {
     canonical: "/contacto",
   },
@@ -13,9 +13,9 @@ export const metadata: Metadata = {
 
 export default function Contacto() {
   return (
-    <main>
+    <>
         <ContactHero />
         <ContactForm />
-    </main>
+    </>
   );
 }

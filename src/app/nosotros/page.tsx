@@ -5,8 +5,8 @@ import Proceso from "@/sections/about-us/Proceso";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sobre Nosotros",
-  description: "Conoce a Montana, especialistas en remodelación, diseño y construcción de espacios en Bogotá. Transformamos tus ideas en realidad con estrategia y precisión.",
+  title: "Sobre Nosotros | Empresa de Construcción y Remodelación",
+  description: "Conoce la trayectoria de Montana Soluciones y Servicios en Bogotá y a nivel nacional. Especialistas en diseño, remodelación y construcción con altos estándares de calidad.",
   alternates: {
     canonical: "/nosotros",
   },
@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 
 export default function Nosotros() {
   return (
-    <main>
+    <>
         <NostrosHero />
         <Quienessomos />     
         <PqElegirnos />  
         <Proceso /> 
-    </main>
+    </>
   );
 }

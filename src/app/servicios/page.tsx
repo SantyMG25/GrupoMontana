@@ -8,8 +8,8 @@ import ServiceCta from "@/sections/services/ServiceCta";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Servicios de Construcción y Remodelación",
-  description: "Descubre nuestros servicios de construcción, remodelación integral y acabados en Bogotá. Soluciones técnicas y estéticas de la más alta calidad.",
+  title: "Servicios de Construcción, Remodelación y Acabados",
+  description: "Portafolio completo de servicios: remodelación integral, obras civiles, acabados arquitectónicos y construcción comercial y residencial en Bogotá y a nivel nacional.",
   alternates: {
     canonical: "/servicios",
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function Servicios() {
   return (
-    <main>
+    <>
       <ServiceHero />
       <ServiciosIntro />
       <ServiceNavigation />
@@ -25,6 +25,6 @@ export default function Servicios() {
       <Construccion />
       <Acabados />
       <ServiceCta />
-    </main>
+    </>
   );
 }

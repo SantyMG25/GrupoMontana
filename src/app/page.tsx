@@ -8,8 +8,8 @@ import HomeProceso from "@/sections/home/HomeProceso";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Inicio | Montana Soluciones y Servicios",
-  description: "Descubre cómo transformamos espacios en Bogotá. Expertos en construcción, remodelación y asesoría estratégica para proyectos.",
+  title: "Construcción y Remodelación en Bogotá | Montana Soluciones",
+  description: "Especialistas en construcción, remodelación integral y adecuación de espacios residenciales y comerciales en Bogotá y a nivel nacional. Cotiza tu proyecto con nosotros.",
   alternates: {
     canonical: "/",
   },
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return(
-    <main>
+    <>
       <Hero />
       <HomeUs />
       <HomeService />
       <HomePqElegirnos />
       <HomeProceso />
       <HomeCTA />
-    </main>
+    </>
   )
 }

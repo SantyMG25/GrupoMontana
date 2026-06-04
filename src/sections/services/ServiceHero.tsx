@@ -1,8 +1,8 @@
 import FadeIn from "@/components/ui/FadeIn";
 
 export default function ServiceHero() {
-    return (
-        <section className="relative min-h-[60vh] flex items-center px-6 py-24 md:px-12 lg:px-24 overflow-hidden">
+  return (
+    <section className="relative min-h-[60vh] flex items-center px-6 py-24 md:px-12 lg:px-24 overflow-hidden">
 
       <div
         className="absolute inset-0 z-0 scale-105"
@@ -25,13 +25,13 @@ export default function ServiceHero() {
 
         <FadeIn direction="up" delay={0.2}>
           <h1 className="mt-4 text-4xl md:text-5xl font-bold text-white leading-tight">
-            Soluciones para espacios funcionales y modernos y enfoque estratégico.
+            Soluciones de Construcción y Remodelación con Enfoque Estratégico
           </h1>
         </FadeIn>
 
         <FadeIn direction="up" delay={0.3}>
           <p className="mt-6 text-gray-300 text-lg leading-relaxed">
-            Remodelación, construcción y adecuación de espacios en Bogotá y sus alrededores.
+            Remodelación, construcción y adecuación de espacios en Bogotá y a nivel nacional.
           </p>
         </FadeIn>
 
@@ -41,5 +41,5 @@ export default function ServiceHero() {
       </div>
 
     </section>
-    );
+  );
 }

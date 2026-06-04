@@ -27,7 +27,7 @@ export default function Us() {
                     <FadeIn direction="left" delay={0.2}>
                         {/* Título */}
                         <h2 className="text-4xl md:text-5xl font-semibold mb-6 text-gray-900 tracking-tight">
-                            Bienvenido
+                            Especialistas en Construcción y Remodelación en Bogotá y a Nivel Nacional
                         </h2>
                     </FadeIn>
 

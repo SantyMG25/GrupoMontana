@@ -17,7 +17,7 @@ export default function HomePqElegirnos() {
 
                     <FadeIn direction="right" delay={0.2}>
                         <h2 className="max-w-xl text-4xl font-bold leading-tight tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
-                            ¿Por qué elegirnos?
+                            ¿Por Qué Elegir a Montana para Tu Obra o Remodelación?
                         </h2>
                     </FadeIn>
 
@@ -45,7 +45,7 @@ export default function HomePqElegirnos() {
                 <FadeIn direction="left" delay={0.3} className="w-full lg:w-[45%]">
                     <Image
                         src="/img/logo/untitled design.svg"
-                        alt="Montana SyS"
+                        alt="Logo de Montana Soluciones y Servicios - Empresa de Construcción y Remodelación en Bogotá"
                         width={500}
                         height={600}
                         className="h-[280px] w-full rounded-2xl object-cover shadow-2xl md:h-[380px] lg:h-[460px]"

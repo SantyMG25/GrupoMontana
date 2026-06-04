@@ -28,7 +28,7 @@ export default function NostrosHero() {
 
                 <div className="w-full lg:w-[100%]">
                     <img
-                        src="/img/hero/hero.webp"
+                        src="/img/assets/sala.webp"
                         alt="Interior remodelado con acabados modernos"
                         className="h-[280px] w-full rounded-2xl object-cover shadow-2xl md:h-[380px] lg:h-[460px]"
                     />

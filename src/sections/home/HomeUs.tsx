@@ -13,7 +13,7 @@ export default function Us() {
                 {/* Imagen */}
                 <FadeIn direction="right" delay={0.2} className="w-full md:w-1/2">
                     <Image
-                        src="/img/hero/hero.webp"
+                        src="/img/assets/IMG.webp"
                         alt="Remodelación de espacios en Bogotá"
                         width={600}
                         height={400}

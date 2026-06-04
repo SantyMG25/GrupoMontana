@@ -6,7 +6,7 @@ export default function Construccion() {
       id="construccion"
       eyebrow="Construcción"
       title="Construcción con enfoque estratégico"
-      image="/img/hero/hero.webp"
+      image="/img/assets/Bogotá.webp"
       reverse
       description="Desarrollamos proyectos desde cero con planificación técnica, control de calidad y ejecución precisa."
       secondDescription="Nuestro enfoque garantiza espacios funcionales, seguros y bien estructurados, adaptados a entornos residenciales y comerciales."

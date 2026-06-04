@@ -44,8 +44,8 @@ export default function HomePqElegirnos() {
 
                 <FadeIn direction="left" delay={0.3} className="w-full lg:w-[45%]">
                     <Image
-                        src="/img/hero/hero.webp"
-                        alt="Interior remodelado con acabados modernos"
+                        src="/img/logo/untitled design.svg"
+                        alt="Montana SyS"
                         width={500}
                         height={600}
                         className="h-[280px] w-full rounded-2xl object-cover shadow-2xl md:h-[380px] lg:h-[460px]"

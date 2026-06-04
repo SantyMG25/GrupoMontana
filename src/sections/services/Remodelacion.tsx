@@ -6,7 +6,7 @@ export default function Remodelacion() {
       id="remodelacion"
       eyebrow="Servicio principal"
       title="Remodelación integral en Bogotá"
-      image="/img/hero/hero.webp"
+      image="img/assets/IMG1.webp"
       description="Transformamos espacios residenciales y comerciales con un enfoque estratégico, funcional y estético."
       secondDescription="Analizamos cada proyecto para mejorar distribución, uso del espacio y acabados, logrando ambientes modernos y alineados con las necesidades del cliente."
       points={[

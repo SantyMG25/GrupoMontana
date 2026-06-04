@@ -44,7 +44,7 @@ export default function HomePqElegirnos() {
 
                 <FadeIn direction="left" delay={0.3} className="w-full lg:w-[45%]">
                     <Image
-                        src="/img/logo/untitled design.svg"
+                        src="/img/assets/logo.webp"
                         alt="Logo de Montana Soluciones y Servicios - Empresa de Construcción y Remodelación en Bogotá"
                         width={500}
                         height={600}
